@@ -1,0 +1,42 @@
+{
+  "portofolios": [
+    {
+      "_id": "asd1293uasdads1",
+      "title": "There is More You Know",
+      "desc_thumb": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+      "image": "https://th.bing.com/th/id/OIP.FBoKGpqGTAp_m24ebrzr4QHaHa?pid=ImgDet&w=800&h=800&rs=1"
+    },
+    {
+      "_id": "asd1293uasdads2",
+      "title": "There is More You Know",
+      "desc_thumb": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+      "image": "https://4.bp.blogspot.com/-YMuqMUys0oo/UCN0kIv5LPI/AAAAAAAABKI/WNwlghciV54/s1600/Zappo+.jpg"
+    },
+    {
+      "_id": "asd1293uasdads3",
+      "title": "There is More You Know",
+      "desc_thumb": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+      "image": "https://i.ebayimg.com/images/i/191928625829-0-1/s-l1000.jpg"
+    }, {
+      "_id": "asd1293uasdads4",
+      "title": "There is More You Know",
+      "desc_thumb": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+      "image": "https://assets.website-files.com/5c0ef552f78db50af00257a0/5c7ae09ceaea1db0f096008a_Cartoon-Logo-BBQ.png"
+    }, {
+      "_id": "asd1293uasdads5",
+      "title": "There is More You Know",
+      "desc_thumb": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+      "image": "https://i.etsystatic.com/25695822/r/il/26109d/3231390615/il_fullxfull.3231390615_83v0.jpg"
+    }, {
+      "_id": "asd1293uasdads6",
+      "title": "There is More You Know",
+      "desc_thumb": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+      "image": "https://th.bing.com/th/id/R.1163123219ef9ae5dfe3a247781807a9?rik=MTyExnhjVxvcdg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-cyKtaqeCvTE%2fUCN0S6S7-4I%2fAAAAAAAABJ0%2fuedQAXdXQr0%2fs1600%2fKJ%2bVERSION%2bFOUR.jpg&ehk=%2f8tCOVh%2bnN4V%2f4cmuL0yW5UDG548c6i4vz4FVmL6FV4%3d&risl=&pid=ImgRaw&r=0"
+    }, {
+      "_id": "asd1293uasdads7",
+      "title": "There is More You Know",
+      "desc_thumb": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+      "image": "https://i.pinimg.com/originals/c4/35/16/c435165ca659c35aa3cb5e8e838435ac.jpg"
+    }
+  ]
+}

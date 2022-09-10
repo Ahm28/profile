@@ -1,4 +1,4 @@
-import { createTheme, ThemeProvider, Typography } from '@mui/material'
+import { createTheme, ThemeProvider, Typography, Link } from '@mui/material'
 import { Box, Container } from '@mui/system'
 import React from 'react'
 import Footer from '../components/Footer'
@@ -27,11 +27,11 @@ export default function Contact() {
                 <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</Typography>
 
 
-                  <Typography sx={{mt: 2}}>Github : <a href='https://github.com/Ahm28' target='_blank' style={{textDecoration: 'none', color: 'white', fontWeight: 700}}>&nbsp;Ahm28</a></Typography>
+                  <Typography sx={{mt: 2}}>Github : <Link href='https://github.com/Ahm28' target='_blank' sx={{textDecoration: 'none', color: 'white', fontWeight: 700, '&:hover': {color: '#FDB827'}}}>&nbsp;Ahm28</Link></Typography>
                   
-                  <Typography sx={{my: 2}}>LinkedIn : <a href='https://www.linkedin.com/in/ahmad-mughni-m/' target='_blank' style={{textDecoration: 'none', color: 'white', fontWeight: 700}}>Ahmad Mughni</a></Typography>
-                  <Typography sx={{my: 2}}>Telegram : <a href='https://t.me/ahmadmughni' target='_blank' style={{textDecoration: 'none', color: 'white', fontWeight: 700}}> @ahmadmughni</a></Typography>
-                  <Typography>Email : <a href='mailto:ahmad.mughni1905@gmail.com' target='_blank' style={{textDecoration: 'none', color: 'white', fontWeight: 700}}> ahmad.mughni1905@gmail.com</a></Typography>
+                  <Typography sx={{my: 2}}>LinkedIn : <Link href='https://www.linkedin.com/in/ahmad-mughni-m/' target='_blank' sx={{textDecoration: 'none', color: 'white', fontWeight: 700, '&:hover': {color: '#FDB827'}}}>Ahmad Mughni</Link></Typography>
+                  <Typography sx={{my: 2}}>Telegram : <Link href='https://t.me/ahmadmughni' target='_blank' sx={{textDecoration: 'none', color: 'white', fontWeight: 700, '&:hover': {color: '#FDB827'}}}> @ahmadmughni</Link></Typography>
+                  <Typography>Email : <Link href='mailto:ahmad.mughni1905@gmail.com' target='_blank' sx={{textDecoration: 'none', color: 'white', fontWeight: 700, '&:hover': {color: '#FDB827'}}}> ahmad.mughni1905@gmail.com</Link></Typography>
               </Box>
 
             </Box>
