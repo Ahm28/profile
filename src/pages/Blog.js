@@ -8,28 +8,23 @@ import CardComponent from "../components/Card/Card"
 import Footer from "../components/Footer"
 
 
-export default function Portofolios(){
+export default function Blog(){
   const theme = createTheme({
     typography: {
       fontFamily: ['"Inter"', 'sans-serif'].join(',')
     }
   })
 
-  const portfolios_data = dataJson.portofolios;
+  const blog_data = dataJson.blog;
 
   return(
     <ThemeProvider theme={theme}>
-      <ResponsiveAppBar active={'portfolios'} />
+      <ResponsiveAppBar active={'blog'} />
 
       <Container>
-
-        <Box sx={{textAlign: 'center', display: {sm: 'none', xs: 'flex'}, justifyContent: 'center'}}>
-          <Typography variant="h4" sx={{fontWeight: 700}}>What i've done</Typography>
-        </Box>
-
         <Box sx={{my: 5}}>
           <Grid container spacing={2}>
-              {_.map(portfolios_data, value => {
+              {_.map(blog_data, value => {
                 return (
                   <Grid item xs={12} sm={4} key={value._id}>
                     <CardComponent data={value} />

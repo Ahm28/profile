@@ -38,5 +38,48 @@
       "desc_thumb": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
       "image": "https://i.pinimg.com/originals/c4/35/16/c435165ca659c35aa3cb5e8e838435ac.jpg"
     }
+  ],
+  "blog": [
+    {
+      "_id": "asd1293uasdadc1",
+      "title": "What is Computer Languange",
+      "desc_thumb": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+      "image": "https://th.bing.com/th/id/R.5e738ebc91bdc176c5882951e090c7ba?rik=5VYcQO%2bOXuVadw&riu=http%3a%2f%2fwww.techyv.com%2fsites%2fdefault%2fusers%2fsuperuser%2fdepositphotos_43853639-stock-photo-word-cloud-programming-languages-or.jpg&ehk=13ssJr4lY5HTnfEfPtOgFvt51Hz8LY7Nw59oqurTgE4%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "_id": "asd1293uasdadc2",
+      "title": "Coding is More Important",
+      "desc_thumb": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+      "image": "https://inteng-storage.s3.amazonaws.com/img/iea/3gG9WBaywV/sizes/computer-language_md.jpg"
+    },
+    {
+      "_id": "asd1293uasdadc3",
+      "title": "Java vs Javascript",
+      "desc_thumb": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+      "image": "https://th.bing.com/th/id/OIP.b9PkC8jonZjggmFZnzHOxwHaD9?pid=ImgDet&rs=1"
+    },
+    {
+      "_id": "asd1293uasdadc4",
+      "title": "Mutable dan Imutable dalam Javascript",
+      "desc_thumb": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+      "image": "https://th.bing.com/th/id/R.a34c7726005ddfafc9a667039be5b049?rik=uOZsQjTwmVjwww&riu=http%3a%2f%2fimg.labnol.org%2fdi%2fgoogle-apps-script.jpg&ehk=vSWkJmPczLn%2bhStCtX8m3as9O0tF8RhZ0pegxR%2b%2fBLs%3d&risl=&pid=ImgRaw&r=0"
+    },{
+      "_id": "asd1293uasdadc5",
+      "title": "Kerangkas Kerja",
+      "desc_thumb": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+      "image": "https://th.bing.com/th/id/OIP.FBoKGpqGTAp_m24ebrzr4QHaHa?pid=ImgDet&w=800&h=800&rs=1"
+    },
+    {
+      "_id": "asd1293uasdadc6",
+      "title": "Use Javascript in HTML",
+      "desc_thumb": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+      "image": "https://th.bing.com/th/id/OIP.f-lNWTAQmi4stUYOmkJ67gHaE_?pid=ImgDet&rs=1"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "title": "What Is HTML?",
+      "desc_thumb": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+      "image": "https://s3-ap-southeast-1.amazonaws.com/sawaal.com/qaimg/What_is_the_correct_JavaScript_syntax_to_write_%E2%80%9CHello_World%E2%80%9D1556279922.jpg"
+    }
   ]
 }
