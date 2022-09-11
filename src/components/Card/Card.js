@@ -17,16 +17,16 @@ export default function CardComponent(props) {
        <Box sx={{display: {sm: 'block', md: 'flex'}}}>
        <CardMedia
           component="img"
-          image={data.image}
+          image={data ? data.image : 'https://st3.depositphotos.com/7438112/14964/i/950/depositphotos_149640460-stock-photo-sample-stamp-on-white-background.jpg'}
           alt="green iguana"
           sx={{width: { md: 181, xs: '100%' }, height: { md: 181, xs: 140} }}
         />
         <CardContent>
           <Typography gutterBottom variant="h6" component="div">
-            {data.title}
+            {data? data.title : 'Title Card'}
           </Typography>
           <Typography variant="caption">
-            {data.desc_thumb}
+            {data ? data.desc_thumb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,'}
           </Typography>
         </CardContent>
         </Box>

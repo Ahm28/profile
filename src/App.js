@@ -4,6 +4,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Portofolios from './pages/Portofolios';
 import Blog from './pages/Blog';
+import AddPorto from './pages/AddPorto';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <Route path='/contact' element={<Contact />} />
       <Route path='/portfolios' element={<Portofolios />} />
       <Route path='/blog' element={<Blog />} />
-
+      <Route path='/addPorto' element={<AddPorto />} />
 
     </Routes>
   );
