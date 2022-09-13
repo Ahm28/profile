@@ -29,14 +29,23 @@ export default function Portofolios(){
 
         <Box sx={{my: 5}}>
           <Grid container spacing={2}>
-              {_.map(portfolios_data, value => {
-                return (
-                  <Grid item xs={12} sm={4} key={value._id}>
-                    <CardComponent data={value} />
-                  </Grid>
-                )
-              })}
-          </Grid>
+            {
+              portfolios_data.length !== 0 ? ( 
+                _.map(portfolios_data, value => {  
+                  return (
+                      <Grid item xs={12} sm={4} key={value._id}>
+                        <CardComponent data={value} />
+                    </Grid>
+                  )
+                })
+                ) : (
+                  <Grid item xs={12} sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', height: '75vh' }}>
+                  <img src='/assets/images/no-data.png' alt="No Data" width='300' />
+                  <Typography variant="h3" sx={{fontWeight: 700}}>No Data</Typography>
+                </Grid>
+              )
+            }
+            </Grid>
         </Box>
       </Container>
 
