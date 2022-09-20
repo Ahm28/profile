@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <footer>
       <Container>
-        <Box sx={{display: 'flex',  flexDirection: {xs:'column', md: 'row'}, color: 'white', justifyContent: {xs: 'center', md: 'space-between'}, textAlign: 'center'}}>
+        <Box sx={{display: 'flex',  flexDirection: {xs:'column', md: 'row'}, color: 'white', justifyContent: {xs: 'center', md: 'space-around'}, textAlign: 'center', my: 1}}>
 
           <Box sx={{order: {xs: 3, md: 2}}}>
           <Typography variant='caption'>Copyright @ {moment(Date.now()).format('YYYY')} all right reserved.</Typography>
@@ -23,9 +23,6 @@ export default function Footer() {
             <a href='https://github.com/Ahm28' target='_blank'>
               <GitHubIcon sx={{color: 'white', ml: 1}} />
             </a>
-          </Box>
-          <Box sx={{order: {xs: 2, md: 3}}}>
-            <Typography variant='caption'>Source code available</Typography>
           </Box>
         </Box>
       </Container>

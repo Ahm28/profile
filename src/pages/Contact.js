@@ -12,6 +12,7 @@ const theme = createTheme({
 
 
 export default function Contact() {
+  document.title = 'Contact'
   return (
     <ThemeProvider theme={theme}>
       <ResponsiveAppBar active='contact' />
