@@ -12,6 +12,7 @@ const theme = createTheme({
 })
 
 export default function Home() {
+  document.title = 'Ahmad Mughni'
   let navigate = useNavigate();
   return (
     <ThemeProvider theme={theme}>

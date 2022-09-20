@@ -7,13 +7,14 @@ import _ from 'lodash'
 import CardComponent from "../components/Card/Card"
 import Footer from "../components/Footer"
 
+const theme = createTheme({
+  typography: {
+    fontFamily: ['"Inter"', 'sans-serif'].join(',')
+  }
+})
 
 export default function Blog(){
-  const theme = createTheme({
-    typography: {
-      fontFamily: ['"Inter"', 'sans-serif'].join(',')
-    }
-  })
+  document.title = 'Blogs'
 
   const blog_data = dataJson.blog;
 

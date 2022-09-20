@@ -12,6 +12,8 @@ const theme = createTheme({
 })
 
 export default function About() {
+  document.title = 'About'
+
   return (
     <ThemeProvider theme={theme}>
       <ResponsiveAppBar active='about'/>
